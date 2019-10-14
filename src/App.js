@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import Home from "./Data/Pages/Home";
 
 class App extends Component {

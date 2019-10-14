@@ -8,9 +8,9 @@ class Header extends Component {
   render() {
     return (
       <div>
-          <header>
-              <h2>This Is Header</h2>
-          </header>
+        <header>
+          <h2>This Is Header</h2>
+        </header>
       </div>
     );
   }
@@ -18,4 +18,5 @@ class Header extends Component {
 
 export default connect(
   "",
-actions)(withRouter(Header));
+  actions
+)(withRouter(Header));

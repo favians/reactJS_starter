@@ -7,7 +7,7 @@ class FourZeroFour extends Component {
   render() {
     return (
       <div>
-          <h1>This Is 404 Page</h1>
+        <h1>This Is 404 Page</h1>
       </div>
     );
   }
@@ -15,4 +15,5 @@ class FourZeroFour extends Component {
 
 export default connect(
   "",
-actions)(withRouter(FourZeroFour));
+  actions
+)(withRouter(FourZeroFour));

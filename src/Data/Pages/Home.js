@@ -8,7 +8,7 @@ class Footer extends Component {
   render() {
     return (
       <div>
-          <h1>Hello</h1>
+        <h1>Hello</h1>
       </div>
     );
   }
@@ -16,4 +16,5 @@ class Footer extends Component {
 
 export default connect(
   "",
-actions)(withRouter(Footer));
+  actions
+)(withRouter(Footer));
