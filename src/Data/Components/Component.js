@@ -1,16 +1,13 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import { connect } from "unistore/react";
 import { actions } from "../../store";
 import { withRouter } from "react-router-dom";
-import Compon from "../Components/Component";
 
-class Footer extends Component {
+class Components extends Component {
   render() {
     return (
       <div>
-        <h1>Hello</h1>
-        <Compon />
+        <h1>This is Component</h1>
       </div>
     );
   }
@@ -19,4 +16,4 @@ class Footer extends Component {
 export default connect(
   "",
   actions
-)(withRouter(Footer));
+)(withRouter(Components));
